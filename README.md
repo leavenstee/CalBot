@@ -5,6 +5,8 @@ Emoji Based Food Calorie Burning
 CalBot takes health kit data and then plots all the food emojies randomly around the map. It provides routes and only plots foods that you have not burned off yet! 
 
 
+![Map Pic](https://github.com/leavenstee/CalBot/blob/master/CalBotPic.png)
+
 
 ## Known Bugs
 - Water Placement 
