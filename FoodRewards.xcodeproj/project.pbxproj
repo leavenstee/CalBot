@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A90E89205387CCC3C9A67F4B /* Pods_FoodRewards.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60AC2506ED5001E3CD571BD5 /* Pods_FoodRewards.framework */; };
 		C390D9291EDF1C510021E399 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390D9281EDF1C510021E399 /* AppDelegate.swift */; };
 		C390D92B1EDF1C510021E399 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390D92A1EDF1C510021E399 /* ViewController.swift */; };
 		C390D92E1EDF1C510021E399 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C390D92C1EDF1C510021E399 /* Main.storyboard */; };
 		C390D9301EDF1C510021E399 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C390D92F1EDF1C510021E399 /* Assets.xcassets */; };
 		C390D9331EDF1C510021E399 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C390D9311EDF1C510021E399 /* LaunchScreen.storyboard */; };
+		C390D93D1EDF1D980021E399 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C390D93C1EDF1D980021E399 /* HealthKit.framework */; };
+		C390D93F1EDF4A8C0021E399 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C390D93E1EDF4A8C0021E399 /* MapKit.framework */; };
+		C390D9431EDFCD380021E399 /* FoodMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C390D9421EDFCD380021E399 /* FoodMap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		535665BDC53AFEA858C5507F /* Pods-FoodRewards.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRewards.release.xcconfig"; path = "Pods/Target Support Files/Pods-FoodRewards/Pods-FoodRewards.release.xcconfig"; sourceTree = "<group>"; };
+		60AC2506ED5001E3CD571BD5 /* Pods_FoodRewards.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FoodRewards.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C390D9251EDF1C510021E399 /* FoodRewards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoodRewards.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C390D9281EDF1C510021E399 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C390D92A1EDF1C510021E399 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,11 @@
 		C390D92F1EDF1C510021E399 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C390D9321EDF1C510021E399 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C390D9341EDF1C510021E399 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C390D93A1EDF1D970021E399 /* FoodRewards.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FoodRewards.entitlements; sourceTree = "<group>"; };
+		C390D93C1EDF1D980021E399 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		C390D93E1EDF4A8C0021E399 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C390D9421EDFCD380021E399 /* FoodMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodMap.swift; sourceTree = "<group>"; };
+		E7D1E9628DFC307375FB0A8C /* Pods-FoodRewards.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FoodRewards.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FoodRewards/Pods-FoodRewards.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +40,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C390D93F1EDF4A8C0021E399 /* MapKit.framework in Frameworks */,
+				C390D93D1EDF1D980021E399 /* HealthKit.framework in Frameworks */,
+				A90E89205387CCC3C9A67F4B /* Pods_FoodRewards.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0231DBD8BA2110BF1A424DC0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E7D1E9628DFC307375FB0A8C /* Pods-FoodRewards.debug.xcconfig */,
+				535665BDC53AFEA858C5507F /* Pods-FoodRewards.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C390D91C1EDF1C510021E399 = {
 			isa = PBXGroup;
 			children = (
 				C390D9271EDF1C510021E399 /* FoodRewards */,
 				C390D9261EDF1C510021E399 /* Products */,
+				C390D93B1EDF1D980021E399 /* Frameworks */,
+				0231DBD8BA2110BF1A424DC0 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,26 @@
 		C390D9271EDF1C510021E399 /* FoodRewards */ = {
 			isa = PBXGroup;
 			children = (
+				C390D93A1EDF1D970021E399 /* FoodRewards.entitlements */,
 				C390D9281EDF1C510021E399 /* AppDelegate.swift */,
 				C390D92A1EDF1C510021E399 /* ViewController.swift */,
+				C390D9421EDFCD380021E399 /* FoodMap.swift */,
 				C390D92C1EDF1C510021E399 /* Main.storyboard */,
 				C390D92F1EDF1C510021E399 /* Assets.xcassets */,
 				C390D9311EDF1C510021E399 /* LaunchScreen.storyboard */,
 				C390D9341EDF1C510021E399 /* Info.plist */,
 			);
 			path = FoodRewards;
+			sourceTree = "<group>";
+		};
+		C390D93B1EDF1D980021E399 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C390D93E1EDF4A8C0021E399 /* MapKit.framework */,
+				C390D93C1EDF1D980021E399 /* HealthKit.framework */,
+				60AC2506ED5001E3CD571BD5 /* Pods_FoodRewards.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +108,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C390D9371EDF1C510021E399 /* Build configuration list for PBXNativeTarget "FoodRewards" */;
 			buildPhases = (
+				B2CF54C4F60A30866AC7A72F /* [CP] Check Pods Manifest.lock */,
 				C390D9211EDF1C510021E399 /* Sources */,
 				C390D9221EDF1C510021E399 /* Frameworks */,
 				C390D9231EDF1C510021E399 /* Resources */,
+				C9D0EFCCDAB00B6537BBC271 /* [CP] Embed Pods Frameworks */,
+				862937B50F9878D1D3F6020A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,7 +137,22 @@
 					C390D9241EDF1C510021E399 = {
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = 7SWYFJMYXD;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.HealthKit = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -132,6 +187,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		862937B50F9878D1D3F6020A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodRewards/Pods-FoodRewards-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2CF54C4F60A30866AC7A72F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9D0EFCCDAB00B6537BBC271 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FoodRewards/Pods-FoodRewards-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C390D9211EDF1C510021E399 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -139,6 +242,7 @@
 			files = (
 				C390D92B1EDF1C510021E399 /* ViewController.swift in Sources */,
 				C390D9291EDF1C510021E399 /* AppDelegate.swift in Sources */,
+				C390D9431EDFCD380021E399 /* FoodMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +363,10 @@
 		};
 		C390D9381EDF1C510021E399 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7D1E9628DFC307375FB0A8C /* Pods-FoodRewards.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FoodRewards/FoodRewards.entitlements;
 				DEVELOPMENT_TEAM = 7SWYFJMYXD;
 				INFOPLIST_FILE = FoodRewards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -272,8 +378,10 @@
 		};
 		C390D9391EDF1C510021E399 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535665BDC53AFEA858C5507F /* Pods-FoodRewards.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FoodRewards/FoodRewards.entitlements;
 				DEVELOPMENT_TEAM = 7SWYFJMYXD;
 				INFOPLIST_FILE = FoodRewards/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -302,6 +410,7 @@
 				C390D9391EDF1C510021E399 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
