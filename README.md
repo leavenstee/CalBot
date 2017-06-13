@@ -6,6 +6,7 @@ CalBot takes health kit data and then plots all the food emojies randomly around
 
 
 ![Map Pic](https://github.com/leavenstee/CalBot/blob/master/CalBotPic.png)
+![Map Pic Pin](https://github.com/leavenstee/CalBot/blob/master/CalBotPic1.png)
 
 
 ## Known Bugs
